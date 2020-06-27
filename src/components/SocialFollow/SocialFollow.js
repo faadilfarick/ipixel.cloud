@@ -12,20 +12,14 @@ export default function SocialFollow() {
       <a
         href="https://www.facebook.com/ipixel.cloud"
         className="facebook social"
-        target="_blank"
       >
         <FontAwesomeIcon icon={faFacebook} size="2x" />
       </a>
-      <a
-        href="https://www.twitter.com/ipixel.cloud"
-        className="twitter social"
-        target="_blank"
-      >
+      <a href="https://www.twitter.com/ipixel.cloud" className="twitter social">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
       <a
         href="https://www.instagram.com/ipixel.cloud"
-        target="_blank"
         className="instagram social"
       >
         <FontAwesomeIcon icon={faInstagram} size="2x" />
