@@ -21,12 +21,11 @@ export default function SocialFollow() {
         target={"_blank"}
         className="instagram social"
       >
-        " "
         <FontAwesomeIcon
           icon={faInstagram}
           size="3x"
           color="#E1306C"
-          padding="20%"
+          style={{ "padding-left": "20px", "padding-right": "20px" }}
         />
       </a>
       <a
@@ -34,8 +33,7 @@ export default function SocialFollow() {
         className="twitter social"
         target={"_blank"}
       >
-        " "
-        <FontAwesomeIcon icon={faTwitter} size="3x" padding="20px" />
+        <FontAwesomeIcon icon={faTwitter} size="3x" />
       </a>
     </div>
   );
