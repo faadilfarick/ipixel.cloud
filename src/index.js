@@ -10,13 +10,12 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>
-          Welcome to iPixel Business Services
-        </h1>
+        <h1>Welcome to iPixel Business Services</h1>
         <h2>Website Under Construction...</h2>
         <Timer />
         <Preloader />
         <SocialFollow />
+        ©iPixel Business Services Limited
       </div>
     </div>
   );
