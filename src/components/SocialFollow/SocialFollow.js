@@ -14,21 +14,28 @@ export default function SocialFollow() {
         className="facebook social"
         target={"_blank"}
       >
-        <FontAwesomeIcon icon={faFacebook} size="2x" />
-      </a>
-      <a
-        href="https://www.twitter.com/ipixel.cloud"
-        className="twitter social"
-        target={"_blank"}
-      >
-        <FontAwesomeIcon icon={faTwitter} size="2x" />
+        <FontAwesomeIcon icon={faFacebook} size="3x" />
       </a>
       <a
         href="https://www.instagram.com/ipixel.cloud"
         target={"_blank"}
         className="instagram social"
       >
-        <FontAwesomeIcon icon={faInstagram} size="2x" />
+        " "
+        <FontAwesomeIcon
+          icon={faInstagram}
+          size="3x"
+          color="#E1306C"
+          padding="20%"
+        />
+      </a>
+      <a
+        href="https://www.twitter.com/ipixel.cloud"
+        className="twitter social"
+        target={"_blank"}
+      >
+        " "
+        <FontAwesomeIcon icon={faTwitter} size="3x" padding="20px" />
       </a>
     </div>
   );
