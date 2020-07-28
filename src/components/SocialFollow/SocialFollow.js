@@ -29,7 +29,7 @@ export default function SocialFollow() {
         />
       </a>
       <a
-        href="https://www.twitter.com/ipixel.cloud"
+        href="https://www.twitter.com/ipixelcloud"
         className="twitter social"
         target={"_blank"}
       >

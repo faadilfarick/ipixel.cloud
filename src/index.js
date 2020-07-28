@@ -12,6 +12,12 @@ function App() {
       <div className="container">
         <h1>Welcome to iPixel Business Services</h1>
         <h2>Website Under Construction...</h2>
+        <h3>
+          Email :
+          <a href="mailto:ipixelcloud@gmail.com?subject=Inquiry From Website">
+            ipixelcloud@gmail.com
+          </a>
+        </h3>
         <Timer />
         <Preloader />
         <SocialFollow />
